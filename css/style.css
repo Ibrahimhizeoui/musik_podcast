@@ -1,0 +1,123 @@
+
+body,html{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.separate{
+	height: 3px;
+	width: 5%;
+	border: none;
+	box-shadow: none;
+	background: #349BDB;
+}
+/** Header */
+    .header{
+	background: #349BDB;
+	height: 70px;
+	line-height: 40px;}
+	.logo{
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 1px;
+		float: left;
+		color: white;
+	}
+	.menu{
+		float: right;
+	}
+	.menu{
+	
+}
+.menu ul{
+	
+
+}
+
+.menu ul li {
+	display: inline-block;
+    padding: 0px 5px 0px 5px;
+    color:#4CAF50;
+    text-align: center;
+
+}
+
+.menu ul li a{
+	color: #fff;
+	
+
+}
+.menu ul li a:hover{
+	color: #2c3e50;
+	
+
+}
+.maps{
+}
+
+/** Banner */
+.banner{
+	padding: 0px;
+	margin: 0px;
+}
+.banner img{
+	width: 100%;
+	max-width: 100%;
+	height: 600px;
+	position: relative;
+}
+.inner-banner{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+.inner-banner h1{
+	color: white;
+	/*box-shadow: 1px 1px 20px #000;*/
+}
+.inner-banner .btn{
+	color: #fff;
+	background: #349BDB;
+}
+
+.inner-banner .btn:hover{
+	color: #349BDB;
+	background: #fff;
+}
+/** About */
+#about{
+	text-align: center;
+	padding-top: 5%;
+}
+.article{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+#about h2{
+	text-align: center;
+}
+/** portfolio */
+.portfolio{
+	background: #eeeeee;
+	text-align: center;
+	height: 800px;
+}
+.portfolio .item-folio{
+	background: #349BDB;
+	height: 280px;
+}
+/** footer*/
+footer{
+	background: #2c3e50;
+}
+#contact{
+	color: #fff;
+	text-align: center;
+
+}
